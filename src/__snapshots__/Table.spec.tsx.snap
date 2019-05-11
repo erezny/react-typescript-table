@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table With an extra column should match the snapshot 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th
+        key="dayOfArrival"
+      >
+        Day Of Arrival
+      </th>
+      <th
+        key="name"
+      >
+        Applicant Name
+      </th>
+      <th
+        key="action_delete"
+      >
+        Delete
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className=""
+      data-key={1}
+      key="1"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        1 2/18
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Verla Bashirian
+      </td>
+      <td
+        className=""
+        key="action_delete"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={2}
+      key="2"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        2 16/17
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Daniella Mante
+      </td>
+      <td
+        className=""
+        key="action_delete"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={3}
+      key="3"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        5 12/18
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Estrella Feil
+      </td>
+      <td
+        className=""
+        key="action_delete"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={4}
+      key="4"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        12 22/19
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Hilbert McKenzie
+      </td>
+      <td
+        className=""
+        key="action_delete"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={5}
+      key="5"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        9 7/15
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Myah Kerluke
+      </td>
+      <td
+        className=""
+        key="action_delete"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table With column descriptions should match the snapshot 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th
+        key="dayOfArrival"
+      >
+        Day Of Arrival
+      </th>
+      <th
+        key="name"
+      >
+        Applicant Name
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className=""
+      data-key={1}
+      key="1"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        1 2/18
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Verla Bashirian
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={2}
+      key="2"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        2 16/17
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Daniella Mante
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={3}
+      key="3"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        5 12/18
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Estrella Feil
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={4}
+      key="4"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        12 22/19
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Hilbert McKenzie
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={5}
+      key="5"
+    >
+      <td
+        className=""
+        key="dayOfArrival"
+      >
+        9 7/15
+      </td>
+      <td
+        className=""
+        key="name"
+      >
+        Myah Kerluke
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table Without column descriptions should match the snapshot 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th
+        key="id"
+      >
+        Id
+      </th>
+      <th
+        key="name"
+      >
+        Name
+      </th>
+      <th
+        key="dayOfArrival"
+      >
+        Day Of Arrival
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className=""
+      data-key={1}
+      key="1"
+    >
+      <td
+        key="id"
+      >
+        1
+      </td>
+      <td
+        key="name"
+      >
+        Verla Bashirian
+      </td>
+      <td
+        key="dayOfArrival"
+      >
+        1/2/18
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={2}
+      key="2"
+    >
+      <td
+        key="id"
+      >
+        2
+      </td>
+      <td
+        key="name"
+      >
+        Daniella Mante
+      </td>
+      <td
+        key="dayOfArrival"
+      >
+        2/16/17
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={3}
+      key="3"
+    >
+      <td
+        key="id"
+      >
+        3
+      </td>
+      <td
+        key="name"
+      >
+        Estrella Feil
+      </td>
+      <td
+        key="dayOfArrival"
+      >
+        5/12/18
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={4}
+      key="4"
+    >
+      <td
+        key="id"
+      >
+        4
+      </td>
+      <td
+        key="name"
+      >
+        Hilbert McKenzie
+      </td>
+      <td
+        key="dayOfArrival"
+      >
+        12/22/19
+      </td>
+    </tr>
+    <tr
+      className=""
+      data-key={5}
+      key="5"
+    >
+      <td
+        key="id"
+      >
+        5
+      </td>
+      <td
+        key="name"
+      >
+        Myah Kerluke
+      </td>
+      <td
+        key="dayOfArrival"
+      >
+        9/7/15
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
